@@ -42,7 +42,7 @@ Configure **GNU/Linux chroot or proot** container environment on **GNU/Linux**, 
 ![001](https://gitee.com/mo2/tmoe-linux-comic/raw/master/001.png)<br>
 **Welcome to the exchange club of Tmoe School!**<br><hr>
 ![002](https://gitee.com/mo2/tmoe-linux-comic/raw/master/002.png)<br>
-**How to use tmoe-linux tool on WSL?**<br><hr>
+**How to use tmoe-linux tool on Win10?**<br><hr>
 ![003](https://gitee.com/mo2/tmoe-linux-comic/raw/master/003.png)<br>
 **Run PowerShell as an administrator and type the following command.**<br>
 
