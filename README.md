@@ -35,7 +35,7 @@ Configure **GNU/Linux chroot or proot** container environment on **GNU/Linux**, 
 
 **You can run tmoe-linux manager not only on Android termux, but also on GNU/Linux.**
 
-#### 1.Windows10
+#### 1. Windows10
 
 ##### Chapter 1 WSL
 
@@ -108,13 +108,13 @@ Finally, press Enter and arrow keys to operate.
 > When it prompted Tool/Manager, please select Tool  
 > Later note: It is recommended that WSL users install the gui directly, do not install the chroot container in the doll first, and then install the gui, because this will cause the windows program to fail to call.
 
-#### 2.Android-Termux
+#### 2. Android-Termux
 
-> 1. Go to google play, then install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:api](https://play.google.com/store/apps/details?id=com.termux.api)  
-> 2. Open termux and enter the following command.
->
-> 1. Install the Android version [Termux](https://apk.tmoe.me/termux) with [Termux:api](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/com.termux.api_44.apk)  
-> 2. Open termux and enter the following commands beginning with bash
+> 1. Go to google play, then install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:api](https://play.google.com/store/apps/details?id=com.termux.api).<br>(OR)<br>
+> Direct download: [Termux](https://apk.tmoe.me/termux) and [Termux:api](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/com.termux.api_44.apk) (2020-09-30).<br>
+> Find up-to-date versions by yourself here: [Mirrors](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo).<br><br>
+> 2. Open termux and enter the following command.<br>
+
 _**If you do not live in China, please enter**_
 
 ```shell
