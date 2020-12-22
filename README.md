@@ -31,7 +31,7 @@ Configure **GNU/Linux chroot or proot** container environment on **GNU/Linux**, 
 
 ![main menu English.ver](https://images.gitee.com/uploads/images/2020/1012/135918_eaccc0da_5617340.png "截图_2020-10-12_13-59-00.png")
 
-### 一. Installation
+### 一 Installation
 
 **You can run tmoe-linux manager not only on Android termux, but also on GNU/Linux.**
 
@@ -110,10 +110,10 @@ Finally, press Enter and arrow keys to operate.
 
 #### 2. Android-Termux
 
-> 1. Go to google play, then install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:api](https://play.google.com/store/apps/details?id=com.termux.api).<br>(OR)<br>
-> Direct download: [Termux](https://apk.tmoe.me/termux) and [Termux:api](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/com.termux.api_44.apk) (2020-09-30).<br>
-> Find up-to-date versions by yourself here: [Mirrors](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo).<br><br>
-> 2. Open termux and enter the following command.<br>
+1. Go to google play, then install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:api](https://play.google.com/store/apps/details?id=com.termux.api).<br>(OR)<br>
+Direct download: [Termux](https://apk.tmoe.me/termux) and [Termux:api](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/com.termux.api_44.apk) (2020-09-30).<br>
+Find up-to-date versions by yourself here: [Mirrors](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo).<br><br>
+2. Open termux and enter the following command.<br>
 
 _**If you do not live in China, please enter**_
 
