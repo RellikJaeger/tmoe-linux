@@ -4,12 +4,12 @@
 . <(curl -L git.io/linux.sh)
 ```
 
-> If you do not understand the following readme, please give me an issue to explain the situation,or open [README.en.md](https://github.com/2moe/tmoe-linux/blob/master/README.en.md)  
-> 化繁为简，让 GNU/Linux 的乐趣触手可及。
+> If you do not understand the following readme, please open an issue to explain the situation, or open [README.en.md](https://github.com/2moe/tmoe-linux/blob/master/README.en.md)  
+> Simplify the complexity and make the fun of GNU/Linux within reach.
 
-## 介绍 Introduction
+## Introduction
 
-在 **GNU/Linux**、**Android Termux** 和**Windows10 的 linux 子系统**上配置 **GNU/Linux chroot 或 proot** 容器环境，并 configure remote desktop、pulseaudio 音频服务和 system。
+Configure **GNU/Linux chroot or proot** container environment on **GNU/Linux**, **Android Termux** and **Windows10's linux subsystem**, and configure remote desktop, pulseaudio audio service and system .
 
 > **Support multiple systems and virtualized environments**
 
@@ -37,14 +37,14 @@
 
 #### 1.Windows10
 
-##### 第一章 WSL 篇
+##### Chapter 1 WSL
 
-![001](https://gitee.com/mo2/tmoe-linux-comic/raw/master/001.png)  
-**Welcome to the exchange club of Tmoe School.**  
-![002](https://gitee.com/mo2/tmoe-linux-comic/raw/master/002.png)  
-**How to use tmoe-linux tool on win10.**  
-![003](https://gitee.com/mo2/tmoe-linux-comic/raw/master/003.png)  
-**Run PowerShell as an administrator and type the following command.**
+![001](https://gitee.com/mo2/tmoe-linux-comic/raw/master/001.png)<br>
+**Welcome to the exchange club of Tmoe School!**<br><hr>
+![002](https://gitee.com/mo2/tmoe-linux-comic/raw/master/002.png)<br>
+**How to use tmoe-linux tool on WSL?**<br><hr>
+![003](https://gitee.com/mo2/tmoe-linux-comic/raw/master/003.png)<br>
+**Run PowerShell as an administrator and type the following command.**<br>
 
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -53,7 +53,6 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 [![enable](https://i.loli.net/2020/04/03/I9zdphVgMc5Zky3.png)](https://sm.ms/image/I9zdphVgMc5Zky3)
 
-重启系统后再次以管理员身份运行 _powershell_ ，然后输下面 wsl 开头的命令。  
 After restarting the win10 system, run _powershell_ again as an administrator, then type the following command.
 
 ```powershell
@@ -77,8 +76,8 @@ If you cannot connect to _Microsoft Store_,then you can install it manually.
 ![008](https://gitee.com/mo2/tmoe-linux-comic/raw/master/008.png)
 ![009](https://gitee.com/mo2/tmoe-linux-comic/raw/master/009.png)
 
-**The first chapter is over. You can find more easter eggs in README.第一章 WSL 篇完结，如需阅览第二章，则请自行寻找彩蛋。**  
-**介绍：本（伪）漫画讲述的是少女们机缘巧合之下卷入了 debian 状的旋涡，最终穿梭时空拯救世界的故事。**
+**The first chapter is over. You can find more easter eggs in README.**  
+**Introduction: This (pseudo) comic tells the story of girls who got involved in a debian-like vortex by chance and finally traveled through time and space to save the world.**
 
 ---
 
@@ -93,7 +92,7 @@ _**If you do not live in China, please enter**_
     bash -c "$(curl -L git.io/linux.sh)"
 ```
 
-_**如果你在国内,那么请输**_
+_**If you are in China, please enter**_
 
 ```shell
     sudo apt update
@@ -101,31 +100,28 @@ _**如果你在国内,那么请输**_
     bash -c "$(curl -L l.tmoe.me)"
 ```
 
-> 注:前后两者调用的内容是不一样的，二选一即可。  
-> 区别在于后者对国内的网络进行了优化。
+> Note: The content of the two calls is different, just choose one.
+> The difference is that the latter has optimized the domestic network.
 
-最后按方向键和回车键进行操作。  
 Finally, press Enter and arrow keys to operate.
 
-> 注：WSL 请选择安装工具  
 > When it prompted Tool/Manager, please select Tool  
-> 后期注：建议 WSL 用户直接安装 gui ，不要在里面先套娃安装 chroot 容器，再装 gui，因为这将导致 windows 程序调用失败。
+> Later note: It is recommended that WSL users install the gui directly, do not install the chroot container in the doll first, and then install the gui, because this will cause the windows program to fail to call.
 
 #### 2.Android-Termux
 
-> 1.Go to google play, then install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:api](https://play.google.com/store/apps/details?id=com.termux.api)  
-> 2.Open termux and enter the following command.
+> 1. Go to google play, then install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:api](https://play.google.com/store/apps/details?id=com.termux.api)  
+> 2. Open termux and enter the following command.
 >
-> 1.安装安卓版[Termux](https://apk.tmoe.me/termux) 和[Termux:api](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/com.termux.api_44.apk)  
-> 2.打开 termux，输入下面 bash 开头的命令
-
+> 1. Install the Android version [Termux](https://apk.tmoe.me/termux) with [Termux:api](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/com.termux.api_44.apk)  
+> 2. Open termux and enter the following commands beginning with bash
 _**If you do not live in China, please enter**_
 
 ```shell
     . <(curl -L git.io/linux.sh)
 ```
 
-_**如果你在国内,那么请输**_
+_**If you are in the China, then please enter**_
 
 ```shell
     . <(curl -L l.tmoe.me)
